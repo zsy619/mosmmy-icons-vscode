@@ -304,6 +304,9 @@
 		"_file_cj": {
 			"iconPath": "./svg/mo_file_cj.svg"
 		},
+		"_file_cjo": {
+			"iconPath": "./svg/mo_file_cjo.svg"
+		},
 		"_file_cmake": {
 			"iconPath": "./svg/mo_file_cmake.svg"
 		},
@@ -2355,6 +2358,7 @@
 		"mod": "_file_go_mod",
 		"sum": "_file_go_sum",
 		"cj": "_file_cj",
+		"cjo": "_file_cjo",
 		"gradle": "_file_gradle",
 		"haml": "_file_haml",
 		"has": "_file_haskell",
@@ -3322,6 +3326,7 @@
 		"mod": "_file_go_mod",
 		"sum": "_file_go_sum",
 		"cj": "_file_cj",
+		"cjo": "_file_cjo",
 		"julia": "_file_julia",
 		"jade": "_file_pug",
 		"tsconfig": "_file_typescript",

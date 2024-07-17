@@ -682,6 +682,9 @@
 		"_file_rst": {
 			"iconPath": "./svg/mo_file_rest.svg"
 		},
+		"_file_rest": {
+			"iconPath": "./svg/mo_file_rest_api.svg"
+		},
 		"_file_tslint": {
 			"iconPath": "./svg/mo_file_tslint.svg"
 		},
@@ -2633,6 +2636,7 @@
 		"tfvars": "_file_terraform",
 		"vb": "_file_visualbasic",
 		"rst": "_file_rst",
+		"rest": "_file_rest",
 		"re": "_file_reason",
 		"rei": "_file_reason",
 		"ipynb": "_file_jupyter",

@@ -661,6 +661,9 @@
 		"_file_foxpro": {
 			"iconPath": "./svg/foxpro.png"
 		},
+		"_file_ast": {
+			"iconPath": "./svg/mo_file_ast.svg"
+		},
 		"_file_kotlin": {
 			"iconPath": "./svg/mo_file_kotlin.svg"
 		},
@@ -2626,6 +2629,7 @@
 		"kt": "_file_kotlin",
 		"kts": "_file_kotlin",
 		"fxp": "_file_foxpro",
+		"ast": "_file_ast",
 		"pas": "_file_pascal",
 		"dpr": "_file_pascalproject",
 		"lpr": "_file_pascalproject",
@@ -3423,6 +3427,7 @@
 		"hlsl": "_file_hlsl",
 		"source.css.styled": "_file_styled_components",
 		"foxpro": "_file_foxpro",
+		"ast": "_file_fo_file_astxpro",
 		"ini": "_file_settings",
 		"harbour": "_file_harbour",
 		"visualbasic": "_file_visualbasic",

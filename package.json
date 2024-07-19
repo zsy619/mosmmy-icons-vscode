@@ -3,7 +3,7 @@
 	"displayName": "Mosmmy Cangjie Icons",
 	"description": "Mosmmy Theme",
 	"publisher": "mosmmy-cangjie-icons-vscode",
-	"version": "0.1.13",
+	"version": "0.1.14",
 	"engines": {
 		"vscode": "^1.44.0"
 	},

@@ -316,6 +316,27 @@
 		"_file_cj_gcda": {
 			"iconPath": "./svg/mo_file_cj_gcda.svg"
 		},
+		"_file_cj_errlog": {
+			"iconPath": "./svg/mo_file_cj_errlog.svg"
+		},
+		"_file_cj_outlog": {
+			"iconPath": "./svg/mo_file_cj_outlog.svg"
+		},
+		"_file_cj_cjnet": {
+			"iconPath": "./svg/mo_file_cj_cjnet.svg"
+		},
+		"_file_cj_dylib": {
+			"iconPath": "./svg/mo_file_cj_dylib.svg"
+		},
+		"_file_cj_cjutil": {
+			"iconPath": "./svg/mo_file_cj_cjutil.svg"
+		},
+		"_file_cj_xtool": {
+			"iconPath": "./svg/mo_file_cj_xtool.svg"
+		},
+		"_file_cj_xphp": {
+			"iconPath": "./svg/mo_file_cj_xphp.svg"
+		},
 		"_file_cmake": {
 			"iconPath": "./svg/mo_file_cmake.svg"
 		},
@@ -2390,6 +2411,13 @@
 		"cjo": "_file_cjo",
 		"bchir2": "_file_cj_bchir2",
 		"gcda": "_file_cj_gcda",
+		"dylib": "_file_cj_dylib",
+		"cjnet": "_file_cj_cjnet",
+		"cjutil": "_file_cj_cjutil",
+		"xtool": "_file_cj_xtool",
+		"xphp": "_file_cj_xphp",
+		"errlog": "_file_cj_errlog",
+		"outlog": "_file_cj_outlog",
 		"_test.cj": "_file_cj_test",
 		"*test.cj": "_file_cj_test",
 		"**test.cj": "_file_cj_test",
@@ -3346,6 +3374,8 @@
 		"nsriignore": "_file_nsri",
 		"cj": "_file_cj",
 		"gcda": "_file_cj_gcda",
+		"dylib": "_file_cj_dylib",
+		"cjnet": "_file_cj_cjnet",
 		"bchir2": "_file_cj_bchir2",
 		"test_cj": "_file_cj_test",
 		"test.cj": "_file_cj_test",

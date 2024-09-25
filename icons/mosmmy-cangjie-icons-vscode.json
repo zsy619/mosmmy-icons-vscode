@@ -307,6 +307,15 @@
 		"_file_cjo": {
 			"iconPath": "./svg/mo_file_cjo.svg"
 		},
+		"_file_cj_test": {
+			"iconPath": "./svg/mo_file_cj_test.svg"
+		},
+		"_file_cj_bchir2": {
+			"iconPath": "./svg/mo_file_cj_bchir2.svg"
+		},
+		"_file_cj_gcda": {
+			"iconPath": "./svg/mo_file_cj_gcda.svg"
+		},
 		"_file_cmake": {
 			"iconPath": "./svg/mo_file_cmake.svg"
 		},
@@ -364,6 +373,9 @@
 		"_file_go": {
 			"iconPath": "./svg/mo_file_go.svg"
 		},
+		"_file_go_test": {
+			"iconPath": "./svg/mo_file_go_test.svg"
+		},
 		"_file_go_mod": {
 			"iconPath": "./svg/mo_file_go_mod.svg"
 		},
@@ -402,6 +414,12 @@
 		},
 		"_file_image": {
 			"iconPath": "./svg/mo_file_image.svg"
+		},
+		"_file_webp": {
+			"iconPath": "./svg/mo_file_webp.svg"
+		},
+		"_file_macrocall": {
+			"iconPath": "./svg/mo_file_macrocall.svg"
 		},
 		"_file_java": {
 			"iconPath": "./svg/mo_file_java.svg"
@@ -840,6 +858,9 @@
 		},
 		"_file_log": {
 			"iconPath": "./svg/mo_file_log.svg"
+		},
+		"_file_lock": {
+			"iconPath": "./svg/mo_file_lock.svg"
 		},
 		"_folder_app": {
 			"iconPath": "./svg/mo_folder_app.svg"
@@ -2182,6 +2203,7 @@
 	},
 	"fileExtensions": {
 		"log": "_file_log",
+		"lock": "_file_lock",
 		"yaspellerrc": "_file_yandex",
 		"yaspeller.json": "_file_yandex",
 		"nsriignore": "_file_nsri",
@@ -2361,10 +2383,16 @@
 		"fsx": "_file_fsharp",
 		"fsi": "_file_fsharp",
 		"go": "_file_go",
+		"_test.go": "_file_go_test",
 		"mod": "_file_go_mod",
 		"sum": "_file_go_sum",
 		"cj": "_file_cj",
 		"cjo": "_file_cjo",
+		"bchir2": "_file_cj_bchir2",
+		"gcda": "_file_cj_gcda",
+		"_test.cj": "_file_cj_test",
+		"*test.cj": "_file_cj_test",
+		"**test.cj": "_file_cj_test",
 		"gradle": "_file_gradle",
 		"haml": "_file_haml",
 		"has": "_file_haskell",
@@ -2380,6 +2408,8 @@
 		"html": "_file_html",
 		"jpeg": "_file_image",
 		"jpg": "_file_image",
+		"webp": "_file_webp",
+		"macrocall": "_file_macrocall",
 		"gif": "_file_image",
 		"png": "_file_image",
 		"bmp": "_file_image",
@@ -2831,7 +2861,13 @@
 		"nest-cli.json": "_file_nestjs",
 		"nestconfig.json": "_file_nestjs"
 	},
+	"fileNamesGlob": {
+		"*_test.go": "_file_go_test"
+	},
 	"fileNames": {
+		"*_test.go": "_file_go_test",
+		"*test.go": "_file_go_test",
+		"*test.cj": "_file_cj_test",
 		"artisan": "_file_php",
 		"lint-staged.config.mjs": "_file_lintstagedrc",
 		"lint-staged.config.js": "_file_lintstagedrc",
@@ -3308,6 +3344,11 @@
 	"languageIds": {
 		"cuda-cpp": "_file_cuda",
 		"nsriignore": "_file_nsri",
+		"cj": "_file_cj",
+		"gcda": "_file_cj_gcda",
+		"bchir2": "_file_cj_bchir2",
+		"test_cj": "_file_cj_test",
+		"test.cj": "_file_cj_test",
 		"git": "_file_git",
 		"zig": "_file_zig",
 		"yang": "_file_yang",
@@ -3333,8 +3374,6 @@
 		"go": "_file_go",
 		"mod": "_file_go_mod",
 		"sum": "_file_go_sum",
-		"cj": "_file_cj",
-		"cjo": "_file_cjo",
 		"julia": "_file_julia",
 		"jade": "_file_pug",
 		"tsconfig": "_file_typescript",
@@ -3366,6 +3405,7 @@
 		"editorconfig": "_file_editorconfig",
 		"diff": "_file_diff",
 		"log": "_file_log",
+		"lock": "_file_lock",
 		"lua": "_file_lua",
 		"vue": "_file_vue",
 		"javascriptreact": "_file_react",

@@ -3,9 +3,9 @@
 	"displayName": "Mosmmy Cangjie Icons",
 	"description": "Mosmmy Theme",
 	"publisher": "mosmmy-cangjie-icons-vscode",
-	"version": "0.1.14",
+	"version": "0.1.19",
 	"engines": {
-		"vscode": "^1.44.0"
+		"vscode": "^1.91.0"
 	},
 	"categories": [
 		"Other",
@@ -16,7 +16,8 @@
 		"theme",
 		"icon-theme",
 		"customization",
-		"mosmmy cangjie themes"
+		"cangjie",
+		"仓颉"
 	],
 	"galleryBanner": {
 		"color": "#2c3e66",
@@ -31,6 +32,10 @@
 	"bugs": {
 		"url": "https://github.com/zsy619/mosmmy-icons-vscode/issues"
 	},
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"main": "./out/src/extension",
 	"contributes": {
 		"iconThemes": [
 			{
@@ -38,9 +43,26 @@
 				"label": "Mosmmy Cangjie Icons Vscode",
 				"path": "./icons/mosmmy-cangjie-icons-vscode.json"
 			}
+		],
+		"languages": [
+			{
+				"id": "test_cj",
+				"extensions": [
+					".cj"
+				],
+				"filenamesGlob": [
+					"*test.cj"
+				]
+			}
 		]
 	},
 	"scripts": {
+		"compile": "tsc -p ./",
 		"patch": "vsce package"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.91.0",
+		"mocha": "^10.7.0",
+		"typescript": "^3.9.10"
 	}
 }
